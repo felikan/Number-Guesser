@@ -5,5 +5,9 @@
 }
 
 input {
-    
+    background-color: rgba(157,157,157,0.58);
+}
+
+h1 {
+    font-size: 40px;
 }
