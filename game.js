@@ -7,7 +7,10 @@ var enemyNumber;
 
 
 function onInput() {
+    //Winner feld leeren
     document.getElementById("winner").innerHTML = ""
+
+    //Überprüfung, dass input nicht leer
     inputNumber = document.getElementById("input").value
     inputNumber = parseInt(inputNumber)
     console.log(typeof inputNumber, inputNumber)
