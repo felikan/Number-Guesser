@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<p id="round">Runde: 1</p>
+<label>
+Zahl:  <input type="number" id="input" min="0" max="9" >
+</label>
+<button type="button" id="button" onclick="onInput()">Los</button>
+<p id="no"></p>
+<p id="target">Zielnummer: </p>
+<p id="enemy">Nummer Gegner:  </p>
+<p id="output">Deine Nummer: </p>
+<h1 id="winner" style="align-items: center"> </h1>
+<span id="score1">Deine Punkte: 0 </span> <br> <span id="score2">Punkte deines Gegners: 0 </span>
+</body>
+<script src="game.js"></script>
+</html>
